@@ -1,10 +1,9 @@
 ---
 title: Deploy Network Log Monitoring
-date: 2022-12-15 12:00:00 -500
+date: 2022-12-11 12:00:00 -500
 categories:  [guides, monitoring, siem]
-tags:[siem,monitoring,graylog,pi-hole,docker]
+tags: [siem,monitoring,graylog,pi-hole,docker]
 ---
-
 
 ## Introduction 👋 
 
