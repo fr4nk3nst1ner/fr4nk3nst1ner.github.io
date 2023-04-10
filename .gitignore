@@ -1,21 +1,41 @@
-# hidden files
+
 .*
-!.git*
-!.editorconfig
-!.nojekyll
-!.travis.yml
-!.husky
-!.commitlintrc.json
-!.versionrc.json
-!.stylelintrc.json
-
+assets/js/dist
+.bundle
 # bundler cache
-_site
-vendor
-
-# rubygem
+cassettes
+!.commitlintrc.json
+.compiled
+coverage
+dist
+docs
+.DS_Store
+!.editorconfig
 *.gem
-
-# npm dependencies
+!.git*
+# hidden files
+!.husky
+.idea
+# IDE configurations
+.jekyll-cache
+# Jekyll cache
+.jekyll-metadata
+.log
+# Misc
 node_modules
+!.nojekyll
+npm-debug.log
+# npm dependencies
+.nyc_output
 package-lock.json
+./public
+# RubyGems
+.sass-cache
+_site
+.tmp
+!.travis.yml
+vendor
+!.versionrc.json
+.vscode
+yarn*
+yarn-error.log
