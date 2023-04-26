@@ -9,6 +9,8 @@ cassettes
 coverage
 dist
 docs
+Dockerfile
+docker-compose.yml
 .DS_Store
 !.editorconfig
 *.gem
