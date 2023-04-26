@@ -181,17 +181,26 @@ compress_html:
     envs: [development]
 
 exclude:
-  - '*.gem'
-  - '*.gemspec'
-  - tools
-  - README.md
+  - archive_old
   - CHANGELOG.md
-  - LICENSE
-  - gulpfile.js
-  - node_modules
-  - 'fr4nk3nst1ner.github.io/vendor/bundle/gems/liquid-4.0.3/lib/liquid/locales/en.yml'
+  - docker-compose.yml
+  - Dockerfile
   - 'fr4nk3nst1ner.github.io/vendor/bundle/gems/jekyll-4.3.1/lib/blank_template/assets/css/main.scss'
-
+  - 'fr4nk3nst1ner.github.io/vendor/bundle/gems/liquid-4.0.3/lib/liquid/locales/en.yml'
+  - '*.gem'
+  - "*.gem"
+  - '*.gemspec'
+  - "*.gemspec"
+  - gulpfile.js
+  - kubernetes
+  - LICENSE
+  - node_modules
+  - package*.json
+  - README.md
+  - reference_files
+  - rollup.config.js
+  - template
+  - tools
   
 jekyll-archives:
   enabled: [categories, tags]
